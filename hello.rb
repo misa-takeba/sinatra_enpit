@@ -8,6 +8,6 @@ get '/aiit' do
   "Welcome to AIIT"
 end
 
-get 'hello/:name' |n|
+get 'hello/:name' do |n|
   "Hello #{n}"
 end
